@@ -67,7 +67,7 @@ END
 IDD_TREE_DLG DIALOG  0, 0, 198, 282
 STYLE DS_SETFONT | DS_FIXEDSYS | WS_CHILD | WS_VISIBLE | WS_CAPTION | 
     WS_SYSMENU
-CAPTION "Дерево проекта"
+CAPTION "Р”РµСЂРµРІРѕ РїСЂРѕРµРєС‚Р°"
 FONT 8, "MS Shell Dlg"
 BEGIN
     CONTROL         "",IDC_CUSTOM,"TreeListCtrl.TigerX_And_KB-I",WS_TABSTOP,
@@ -76,7 +76,7 @@ END
 
 IDD_DLG_NAME DIALOG  0, 0, 133, 12
 STYLE DS_SETFONT | DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
-CAPTION "Укажите имя"
+CAPTION "РЈРєР°Р¶РёС‚Рµ РёРјСЏ"
 FONT 11, "MS Sans Serif"
 BEGIN
     DEFPUSHBUTTON   "ok",IDOK,100,0,33,12
@@ -86,14 +86,14 @@ END
 IDD_DLG_TRIG_DBG DIALOGEX 0, 0, 187, 95
 STYLE DS_SETFONT | DS_FIXEDSYS | WS_CHILD | WS_VISIBLE | WS_CAPTION | 
     WS_SYSMENU
-CAPTION "Отладка"
+CAPTION "РћС‚Р»Р°РґРєР°"
 FONT 8, "MS Shell Dlg", 400, 0, 0x1
 BEGIN
     CONTROL         "",IDC_LIST,"SysListView32",LVS_REPORT | LVS_SINGLESEL | 
                     LVS_SHOWSELALWAYS | LVS_ALIGNLEFT | LVS_NOCOLUMNHEADER | 
                     WS_BORDER | WS_TABSTOP,0,13,186,78,WS_EX_STATICEDGE
     SCROLLBAR       IDC_SCROLLBAR,0,1,148,11,SBS_LEFTALIGN
-    PUSHBUTTON      "Легенда",IDC_BTN_SHOW_LEGEND,149,0,37,13,0,
+    PUSHBUTTON      "Р›РµРіРµРЅРґР°",IDC_BTN_SHOW_LEGEND,149,0,37,13,0,
                     WS_EX_STATICEDGE
 END
 
@@ -101,18 +101,18 @@ IDD_TRG_PROFILER_LEGEND DIALOGEX 0, 0, 107, 118
 STYLE DS_SETFONT | DS_MODALFRAME | DS_FIXEDSYS | WS_POPUP | WS_CAPTION | 
     WS_SYSMENU
 EXSTYLE WS_EX_TOOLWINDOW
-CAPTION "Легенда"
+CAPTION "Р›РµРіРµРЅРґР°"
 FONT 8, "MS Shell Dlg", 400, 0, 0x1
 BEGIN
-    GROUPBOX        "Связь",IDC_STATIC,7,7,93,41
-    GROUPBOX        "Элемент",IDC_STATIC,7,55,93,55
-    LTEXT           "Отработанный",IDC_STATIC_DONED_LINK,13,16,80,8
-    LTEXT           "Активный",IDC_STATIC_ACTIVE_LINK,13,26,80,8
-    LTEXT           "Неактивный",IDC_STATIC_INACTIVE_LINK,13,36,80,8
-    LTEXT           "Отработанный",IDC_STATIC_DONED_ELE,13,67,80,8
-    LTEXT           "Активный",IDC_STATIC_ACTIVE_ELE,13,76,80,8
-    LTEXT           "Неактивный",IDC_STATIC_INACTIVE_ELE,13,87,80,8
-    LTEXT           "Ждущий",IDC_STATIC_WAITING_ELE,13,97,80,8
+    GROUPBOX        "РЎРІСЏР·СЊ",IDC_STATIC,7,7,93,41
+    GROUPBOX        "Р­Р»РµРјРµРЅС‚",IDC_STATIC,7,55,93,55
+    LTEXT           "РћС‚СЂР°Р±РѕС‚Р°РЅРЅС‹Р№",IDC_STATIC_DONED_LINK,13,16,80,8
+    LTEXT           "РђРєС‚РёРІРЅС‹Р№",IDC_STATIC_ACTIVE_LINK,13,26,80,8
+    LTEXT           "РќРµР°РєС‚РёРІРЅС‹Р№",IDC_STATIC_INACTIVE_LINK,13,36,80,8
+    LTEXT           "РћС‚СЂР°Р±РѕС‚Р°РЅРЅС‹Р№",IDC_STATIC_DONED_ELE,13,67,80,8
+    LTEXT           "РђРєС‚РёРІРЅС‹Р№",IDC_STATIC_ACTIVE_ELE,13,76,80,8
+    LTEXT           "РќРµР°РєС‚РёРІРЅС‹Р№",IDC_STATIC_INACTIVE_ELE,13,87,80,8
+    LTEXT           "Р–РґСѓС‰РёР№",IDC_STATIC_WAITING_ELE,13,97,80,8
 END
 
 
@@ -201,16 +201,16 @@ IDR_TE_TRIGGER_ELE MENU
 BEGIN
     POPUP "XZ"
     BEGIN
-        MENUITEM "Удалить",                     IDC_TE_TGR_ELE_DELETE
+        MENUITEM "РЈРґР°Р»РёС‚СЊ",                     IDC_TE_TGR_ELE_DELETE
         MENUITEM SEPARATOR
-        MENUITEM "Условия",                     IDC_TE_SHOW_CONDITION
-        MENUITEM "Свойства",                    IDC_TE_PROPETIES
-        MENUITEM "Переименовать",               IDC_TE_RENAME
-        MENUITEM "Активный",                    IDC_TE_MAKE_ACTIVE
+        MENUITEM "РЈСЃР»РѕРІРёСЏ",                     IDC_TE_SHOW_CONDITION
+        MENUITEM "РЎРІРѕР№СЃС‚РІР°",                    IDC_TE_PROPETIES
+        MENUITEM "РџРµСЂРµРёРјРµРЅРѕРІР°С‚СЊ",               IDC_TE_RENAME
+        MENUITEM "РђРєС‚РёРІРЅС‹Р№",                    IDC_TE_MAKE_ACTIVE
         MENUITEM SEPARATOR
-        MENUITEM "Выделить связи",              IDC_TE_HILITE_LINKS
+        MENUITEM "Р’С‹РґРµР»РёС‚СЊ СЃРІСЏР·Рё",              IDC_TE_HILITE_LINKS
         MENUITEM SEPARATOR
-        MENUITEM "Цвет",                        ID_TE_COLOR
+        MENUITEM "Р¦РІРµС‚",                        ID_TE_COLOR
     END
 END
 
@@ -218,19 +218,19 @@ IDR_TE_LINK MENU
 BEGIN
     POPUP "XZ"
     BEGIN
-        MENUITEM "Удалить",                     IDC_TE_LINK_DELETE
-        MENUITEM "Активна всегда",              IDC_AUTO_RESTART
+        MENUITEM "РЈРґР°Р»РёС‚СЊ",                     IDC_TE_LINK_DELETE
+        MENUITEM "РђРєС‚РёРІРЅР° РІСЃРµРіРґР°",              IDC_AUTO_RESTART
         MENUITEM SEPARATOR
-        MENUITEM "Тип &1",                      IDC_TE_LINK_TYPE0
-        MENUITEM "Тип &2",                      IDC_TE_LINK_TYPE1
-        MENUITEM "Тип &3",                      IDC_TE_LINK_TYPE2
-        MENUITEM "Тип &4",                      IDC_TE_LINK_TYPE3
-        MENUITEM "Тип &5",                      IDC_TE_LINK_TYPE4
-        MENUITEM "Тип &6",                      IDC_TE_LINK_TYPE5
-        MENUITEM "Тип &7",                      IDC_TE_LINK_TYPE6
-        MENUITEM "Тип &8",                      IDC_TE_LINK_TYPE7
-        MENUITEM "Тип  &9",                     IDC_TE_LINK_TYPE8
-        MENUITEM "Тип 1&0",                     IDC_TE_LINK_TYPE9
+        MENUITEM "РўРёРї &1",                      IDC_TE_LINK_TYPE0
+        MENUITEM "РўРёРї &2",                      IDC_TE_LINK_TYPE1
+        MENUITEM "РўРёРї &3",                      IDC_TE_LINK_TYPE2
+        MENUITEM "РўРёРї &4",                      IDC_TE_LINK_TYPE3
+        MENUITEM "РўРёРї &5",                      IDC_TE_LINK_TYPE4
+        MENUITEM "РўРёРї &6",                      IDC_TE_LINK_TYPE5
+        MENUITEM "РўРёРї &7",                      IDC_TE_LINK_TYPE6
+        MENUITEM "РўРёРї &8",                      IDC_TE_LINK_TYPE7
+        MENUITEM "РўРёРї  &9",                     IDC_TE_LINK_TYPE8
+        MENUITEM "РўРёРї 1&0",                     IDC_TE_LINK_TYPE9
     END
 END
 
@@ -238,11 +238,11 @@ IDR_BETWEEN_PLOTS_MENU MENU
 BEGIN
     POPUP ""
     BEGIN
-        MENUITEM "Вставить строку",             IDC_INSERT_ROWS
-        MENUITEM "Вставить столбец",            IDC_INSERT_COLUMNS
+        MENUITEM "Р’СЃС‚Р°РІРёС‚СЊ СЃС‚СЂРѕРєСѓ",             IDC_INSERT_ROWS
+        MENUITEM "Р’СЃС‚Р°РІРёС‚СЊ СЃС‚РѕР»Р±РµС†",            IDC_INSERT_COLUMNS
         MENUITEM SEPARATOR
-        MENUITEM "Удалить строку",              IDC_DELETE_ROW
-        MENUITEM "Удалить столбец",             IDC_DELETE_COLUMN
+        MENUITEM "РЈРґР°Р»РёС‚СЊ СЃС‚СЂРѕРєСѓ",              IDC_DELETE_ROW
+        MENUITEM "РЈРґР°Р»РёС‚СЊ СЃС‚РѕР»Р±РµС†",             IDC_DELETE_COLUMN
     END
 END
 
@@ -250,8 +250,8 @@ IDR_TE_TRIGGER_ELE1 MENU
 BEGIN
     POPUP "XZ"
     BEGIN
-        MENUITEM "Условия",                     IDC_TE_SHOW_CONDITION
-        MENUITEM "Переименовать",               IDC_TE_RENAME
+        MENUITEM "РЈСЃР»РѕРІРёСЏ",                     IDC_TE_SHOW_CONDITION
+        MENUITEM "РџРµСЂРµРёРјРµРЅРѕРІР°С‚СЊ",               IDC_TE_RENAME
     END
 END
 
@@ -259,41 +259,41 @@ IDR_MENU_PROF_DLG MENU
 BEGIN
     POPUP "gg"
     BEGIN
-        MENUITEM "Загрузить",                   IDC_LOAD_DBG
+        MENUITEM "Р—Р°РіСЂСѓР·РёС‚СЊ",                   IDC_LOAD_DBG
         MENUITEM SEPARATOR
-        MENUITEM "Очистить",                    IDC_CLEAR_DBG_LIST
+        MENUITEM "РћС‡РёСЃС‚РёС‚СЊ",                    IDC_CLEAR_DBG_LIST
     END
 END
 
 IDR_MAINFRAME MENU 
 BEGIN
-    POPUP "&Файл"
+    POPUP "&Р¤Р°Р№Р»"
     BEGIN
-        MENUITEM "&Сохранить\tCtrl+S",          ID_FILE_SAVE
+        MENUITEM "&РЎРѕС…СЂР°РЅРёС‚СЊ\tCtrl+S",          ID_FILE_SAVE
         MENUITEM SEPARATOR
-        MENUITEM "Выход",                       ID_APP_EXIT
+        MENUITEM "Р’С‹С…РѕРґ",                       ID_APP_EXIT
     END
-    POPUP "&Редактировать"
+    POPUP "&Р РµРґР°РєС‚РёСЂРѕРІР°С‚СЊ"
     BEGIN
-        MENUITEM "&Отменить \tCtrl+Z",          ID_EDIT_UNDO
-        MENUITEM "&Повторить\tCtrl+A",          ID_EDIT_REDO
+        MENUITEM "&РћС‚РјРµРЅРёС‚СЊ \tCtrl+Z",          ID_EDIT_UNDO
+        MENUITEM "&РџРѕРІС‚РѕСЂРёС‚СЊ\tCtrl+A",          ID_EDIT_REDO
         MENUITEM SEPARATOR
-        MENUITEM "Вырезать\tCtrl+X",            ID_EDIT_CUT
-        MENUITEM "Копировать\t Ctrl+C",         ID_EDIT_COPY
-        MENUITEM "Вставить \tCtrl+V",           ID_EDIT_PASTE
+        MENUITEM "Р’С‹СЂРµР·Р°С‚СЊ\tCtrl+X",            ID_EDIT_CUT
+        MENUITEM "РљРѕРїРёСЂРѕРІР°С‚СЊ\t Ctrl+C",         ID_EDIT_COPY
+        MENUITEM "Р’СЃС‚Р°РІРёС‚СЊ \tCtrl+V",           ID_EDIT_PASTE
         MENUITEM SEPARATOR
-        MENUITEM "Выделить все",                ID_EDIT_SELECT_ALL
+        MENUITEM "Р’С‹РґРµР»РёС‚СЊ РІСЃРµ",                ID_EDIT_SELECT_ALL
     END
-    POPUP "&Показать"
+    POPUP "&РџРѕРєР°Р·Р°С‚СЊ"
     BEGIN
-        MENUITEM "&Панель инструментов",        ID_VIEW_TOOLBAR
-        MENUITEM "&Строка состояния",           ID_VIEW_STATUS_BAR
-        MENUITEM "Лог отладчика",               ID_VIEW_PROFILER
-        MENUITEM "Список действий",             ID_VIEW_PROJECT_TREE
+        MENUITEM "&РџР°РЅРµР»СЊ РёРЅСЃС‚СЂСѓРјРµРЅС‚РѕРІ",        ID_VIEW_TOOLBAR
+        MENUITEM "&РЎС‚СЂРѕРєР° СЃРѕСЃС‚РѕСЏРЅРёСЏ",           ID_VIEW_STATUS_BAR
+        MENUITEM "Р›РѕРі РѕС‚Р»Р°РґС‡РёРєР°",               ID_VIEW_PROFILER
+        MENUITEM "РЎРїРёСЃРѕРє РґРµР№СЃС‚РІРёР№",             ID_VIEW_PROJECT_TREE
     END
-    POPUP "&Помощь"
+    POPUP "&РџРѕРјРѕС‰СЊ"
     BEGIN
-        MENUITEM "&О редакторе...",             ID_APP_ABOUT
+        MENUITEM "&Рћ СЂРµРґР°РєС‚РѕСЂРµ...",             ID_APP_ABOUT
     END
 END
 
@@ -325,9 +325,9 @@ STRINGTABLE
 BEGIN
     IDR_MAINFRAME           "TriggerEditor\n\nTriggerEditor\nTriggerEditor Files (*.trg)\n.trg\nTriggerEditor.Document\nTriggerEditor.Document"
     IDS_SCALE_INFO_FORMAT   "%d%%"
-    IDS_SCALE_COMBO_TOOLTIP_TEXT "Укажите свой масштаб"
-    IDS_INVALID_SCALE_INPUT "Укажите пожалуйста число от 10 до 500"
-    IDS_SAVE_PROJ_MSG       "Данные были изменены. Вы хотите сохранить изменения?"
+    IDS_SCALE_COMBO_TOOLTIP_TEXT "РЈРєР°Р¶РёС‚Рµ СЃРІРѕР№ РјР°СЃС€С‚Р°Р±"
+    IDS_INVALID_SCALE_INPUT "РЈРєР°Р¶РёС‚Рµ РїРѕР¶Р°Р»СѓР№СЃС‚Р° С‡РёСЃР»Рѕ РѕС‚ 10 РґРѕ 500"
+    IDS_SAVE_PROJ_MSG       "Р”Р°РЅРЅС‹Рµ Р±С‹Р»Рё РёР·РјРµРЅРµРЅС‹. Р’С‹ С…РѕС‚РёС‚Рµ СЃРѕС…СЂР°РЅРёС‚СЊ РёР·РјРµРЅРµРЅРёСЏ?"
 END
 
 STRINGTABLE 
@@ -364,7 +364,7 @@ END
 STRINGTABLE 
 BEGIN
     ID_APP_ABOUT            "Display program information, version number and copyright\nAbout"
-    ID_APP_EXIT             "Закрывает приложение; запрашивает сохранение данных\nВыход"
+    ID_APP_EXIT             "Р—Р°РєСЂС‹РІР°РµС‚ РїСЂРёР»РѕР¶РµРЅРёРµ; Р·Р°РїСЂР°С€РёРІР°РµС‚ СЃРѕС…СЂР°РЅРµРЅРёРµ РґР°РЅРЅС‹С…\nР’С‹С…РѕРґ"
 END
 
 STRINGTABLE 
@@ -409,13 +409,13 @@ BEGIN
     ID_EDIT_REPEAT          "Repeat the last action\nRepeat"
     ID_EDIT_REPLACE         "Replace specific text with different text\nReplace"
     ID_EDIT_SELECT_ALL      "Select the entire document\nSelect All"
-    ID_EDIT_UNDO            "Отменить последнее действие\nОтменить"
-    ID_EDIT_REDO            "Повторить последнюю отмененное действие\nПовторить"
+    ID_EDIT_UNDO            "РћС‚РјРµРЅРёС‚СЊ РїРѕСЃР»РµРґРЅРµРµ РґРµР№СЃС‚РІРёРµ\nРћС‚РјРµРЅРёС‚СЊ"
+    ID_EDIT_REDO            "РџРѕРІС‚РѕСЂРёС‚СЊ РїРѕСЃР»РµРґРЅСЋСЋ РѕС‚РјРµРЅРµРЅРЅРѕРµ РґРµР№СЃС‚РІРёРµ\nРџРѕРІС‚РѕСЂРёС‚СЊ"
 END
 
 STRINGTABLE 
 BEGIN
-    ID_VIEW_TOOLBAR         "Показывает или скрывает панель иструментов\nПереключить панель инструментов"
+    ID_VIEW_TOOLBAR         "РџРѕРєР°Р·С‹РІР°РµС‚ РёР»Рё СЃРєСЂС‹РІР°РµС‚ РїР°РЅРµР»СЊ РёСЃС‚СЂСѓРјРµРЅС‚РѕРІ\nРџРµСЂРµРєР»СЋС‡РёС‚СЊ РїР°РЅРµР»СЊ РёРЅСЃС‚СЂСѓРјРµРЅС‚РѕРІ"
     ID_VIEW_STATUS_BAR      "Show or hide the status bar\nToggle StatusBar"
 END
 
@@ -443,25 +443,25 @@ END
 
 STRINGTABLE 
 BEGIN
-    IDS_ACTION_COLUMN       "Действия"
+    IDS_ACTION_COLUMN       "Р”РµР№СЃС‚РІРёСЏ"
 END
 
 STRINGTABLE 
 BEGIN
-    ID_VIEW_PROFILER        "Показывает список состояний триггеров"
+    ID_VIEW_PROFILER        "РџРѕРєР°Р·С‹РІР°РµС‚ СЃРїРёСЃРѕРє СЃРѕСЃС‚РѕСЏРЅРёР№ С‚СЂРёРіРіРµСЂРѕРІ"
 END
 
 STRINGTABLE 
 BEGIN
     IDS_ERROR_IN_CUSTOM_VALUE 
-                            "Произошла ошибка при вызове (или внутри) функции customValue"
+                            "РџСЂРѕРёР·РѕС€Р»Р° РѕС€РёР±РєР° РїСЂРё РІС‹Р·РѕРІРµ (РёР»Рё РІРЅСѓС‚СЂРё) С„СѓРЅРєС†РёРё customValue"
     IDS_REG_SEC_NAME_TOOLBARS "Toolbars"
 END
 
 STRINGTABLE 
 BEGIN
-    ID_TBTN_SCALE_PLUS      "Увеличить"
-    ID_TBTN_SCALE_MINUS     "Уменьшить"
+    ID_TBTN_SCALE_PLUS      "РЈРІРµР»РёС‡РёС‚СЊ"
+    ID_TBTN_SCALE_MINUS     "РЈРјРµРЅСЊС€РёС‚СЊ"
 END
 
 #endif    // Russian resources

@@ -116,9 +116,9 @@ BEGIN
                     WS_VSCROLL | WS_TABSTOP
     EDITTEXT        IDC_EMITTER_LIFE_TIME,169,3,21,12,ES_AUTOHSCROLL | 
                     WS_DISABLED
-    CONTROL         "4 окна",IDC_VIEW_MODE,"Button",BS_AUTOCHECKBOX | 
+    CONTROL         "4 РѕРєРЅР°",IDC_VIEW_MODE,"Button",BS_AUTOCHECKBOX | 
                     BS_PUSHLIKE | WS_TABSTOP,518,3,39,12
-    CONTROL         "Показать",IDC_SHOW,"Button",BS_AUTOCHECKBOX | 
+    CONTROL         "РџРѕРєР°Р·Р°С‚СЊ",IDC_SHOW,"Button",BS_AUTOCHECKBOX | 
                     WS_TABSTOP,0,3,49,10
     LTEXT           "X",IDC_STATIC_X,199,3,8,8
     EDITTEXT        IDC_EDIT_X,207,3,18,12,ES_AUTOHSCROLL
@@ -127,11 +127,11 @@ BEGIN
     LTEXT           "Z",IDC_STATIC_Z,265,3,8,8
     EDITTEXT        IDC_EDIT_Z,273,3,18,12,ES_AUTOHSCROLL
     LTEXT           "fps",IDC_FPS,298,3,34,8
-    CONTROL         "Сетка",IDC_CHECK_SHOW_GRID,"Button",BS_AUTOCHECKBOX | 
+    CONTROL         "РЎРµС‚РєР°",IDC_CHECK_SHOW_GRID,"Button",BS_AUTOCHECKBOX | 
                     WS_TABSTOP,333,3,34,8
     EDITTEXT        IDC_EDIT_SCALE,408,3,21,12,ES_AUTOHSCROLL
-    PUSHBUTTON      "Масштаб",IDC_SET_SCALE,433,3,39,12
-    CONTROL         "Мир",IDC_CHECK_SHOW_WORLD,"Button",BS_AUTOCHECKBOX | 
+    PUSHBUTTON      "РњР°СЃС€С‚Р°Р±",IDC_SET_SCALE,433,3,39,12
+    CONTROL         "РњРёСЂ",IDC_CHECK_SHOW_WORLD,"Button",BS_AUTOCHECKBOX | 
                     WS_TABSTOP,369,3,28,8
     EDITTEXT        IDC_EDIT_RATE,492,3,21,12,ES_AUTOHSCROLL
     LTEXT           "P",IDC_RATE,479,5,8,8
@@ -327,7 +327,7 @@ END
 STRINGTABLE 
 BEGIN
     IDR_MAINFRAME           "FXM\n\nFXM\nFXM Files (*.fxp)\n.fxp\nFXM.Document\nFXM Document"
-    IDS_CLOSEFRAMEDIRTY     "Есть измененные данные. Сохранить?"
+    IDS_CLOSEFRAMEDIRTY     "Р•СЃС‚СЊ РёР·РјРµРЅРµРЅРЅС‹Рµ РґР°РЅРЅС‹Рµ. РЎРѕС…СЂР°РЅРёС‚СЊ?"
 END
 
 STRINGTABLE 

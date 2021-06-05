@@ -176,7 +176,7 @@ BEGIN
     IDS_MAIN_INI_VALUE_LANGUAGES "Languages"
     IDS_MAIN_INI_VALUE_RESOLUTIONS "Resolutions"
     IDS_MAIN_INI_VALUE_LOCDIR "LocDir"
-    IDS_PROPSHT_CAPTION     "ПЕРИМЕТР Конфигуратор"
+    IDS_PROPSHT_CAPTION     "РџР•Р РРњР•РўР  РљРѕРЅС„РёРіСѓСЂР°С‚РѕСЂ"
     IDS_KEY_COLOR_DEPTH     "BPP"
     IDS_SECTION_SOUND       "Sound"
 END
@@ -215,7 +215,7 @@ BEGIN
     IDS_KEY_SCROLL_RATE     "ScrollRate"
     IDS_KEY_TOOL_TIPS       "ShowTips"
     IDS_NO_DATA             "No Data"
-    IDS_ABOUT_TEXT          "ПЕРИМЕТР: Завет Императора\n\n(c) 2004-2005 Фирма ""1С"". Все права защищены.\n(c) 2004-2005 Компания ""К-Д ЛАБ"". Все права защищены.\n\nСсылки:\nhttp://games.1c.ru/perimeter\nhttp://www.kdlab.com/perimeter"
+    IDS_ABOUT_TEXT          "РџР•Р РРњР•РўР : Р—Р°РІРµС‚ РРјРїРµСЂР°С‚РѕСЂР°\n\n(c) 2004-2005 Р¤РёСЂРјР° ""1РЎ"". Р’СЃРµ РїСЂР°РІР° Р·Р°С‰РёС‰РµРЅС‹.\n(c) 2004-2005 РљРѕРјРїР°РЅРёСЏ ""Рљ-Р” Р›РђР‘"". Р’СЃРµ РїСЂР°РІР° Р·Р°С‰РёС‰РµРЅС‹.\n\nРЎСЃС‹Р»РєРё:\nhttp://games.1c.ru/perimeter\nhttp://www.kdlab.com/perimeter"
 END
 
 #endif    // Russian resources
