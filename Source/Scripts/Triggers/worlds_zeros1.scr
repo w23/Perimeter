@@ -253,7 +253,7 @@ TriggerChain = {
 			outcomingLinks = {
 				1;
 				{
-					triggerName = "остановить стр. завода солдат ";
+					triggerName = "РѕСЃС‚Р°РЅРѕРІРёС‚СЊ СЃС‚СЂ. Р·Р°РІРѕРґР° СЃРѕР»РґР°С‚ ";
 					color = STRATEGY_RED;
 					type = THIN;
 					active_ = false;
@@ -321,7 +321,7 @@ TriggerChain = {
 			outcomingLinks = {
 				1;
 				{
-					triggerName = "остановить стр. завода офицеров";
+					triggerName = "РѕСЃС‚Р°РЅРѕРІРёС‚СЊ СЃС‚СЂ. Р·Р°РІРѕРґР° РѕС„РёС†РµСЂРѕРІ";
 					color = STRATEGY_RED;
 					type = THIN;
 					active_ = false;
@@ -389,7 +389,7 @@ TriggerChain = {
 			outcomingLinks = {
 				1;
 				{
-					triggerName = "остановить стр. завода техников";
+					triggerName = "РѕСЃС‚Р°РЅРѕРІРёС‚СЊ СЃС‚СЂ. Р·Р°РІРѕРґР° С‚РµС…РЅРёРєРѕРІ";
 					color = STRATEGY_RED;
 					type = THIN;
 					active_ = false;
@@ -428,7 +428,7 @@ TriggerChain = {
 			};
 		},
 		{
-			name = "Усилитель";
+			name = "РЈСЃРёР»РёС‚РµР»СЊ";
 			condition = "struct ConditionSwitcher" {
 				state_ = false;
 				internalColor_ = 0;
@@ -468,7 +468,7 @@ TriggerChain = {
 			outcomingLinks = {
 				1;
 				{
-					triggerName = "остановить стр. усилителя";
+					triggerName = "РѕСЃС‚Р°РЅРѕРІРёС‚СЊ СЃС‚СЂ. СѓСЃРёР»РёС‚РµР»СЏ";
 					color = STRATEGY_RED;
 					type = THIN;
 					active_ = false;
@@ -554,7 +554,7 @@ TriggerChain = {
 					};
 				},
 				{
-					triggerName = "остановить стр. лазерной лаборатории 1";
+					triggerName = "РѕСЃС‚Р°РЅРѕРІРёС‚СЊ СЃС‚СЂ. Р»Р°Р·РµСЂРЅРѕР№ Р»Р°Р±РѕСЂР°С‚РѕСЂРёРё 1";
 					color = STRATEGY_RED;
 					type = THIN;
 					active_ = false;
@@ -640,7 +640,7 @@ TriggerChain = {
 					};
 				},
 				{
-					triggerName = "остановить стр. ракетной лаб. 1";
+					triggerName = "РѕСЃС‚Р°РЅРѕРІРёС‚СЊ СЃС‚СЂ. СЂР°РєРµС‚РЅРѕР№ Р»Р°Р±. 1";
 					color = STRATEGY_GREEN;
 					type = THIN;
 					active_ = false;
@@ -679,7 +679,7 @@ TriggerChain = {
 			};
 		},
 		{
-			name = "подземная лаборатория";
+			name = "РїРѕРґР·РµРјРЅР°СЏ Р»Р°Р±РѕСЂР°С‚РѕСЂРёСЏ";
 			condition = "struct ConditionSwitcher" {
 				state_ = false;
 				internalColor_ = 0;
@@ -708,7 +708,7 @@ TriggerChain = {
 			outcomingLinks = {
 				2;
 				{
-					triggerName = "подземная 2";
+					triggerName = "РїРѕРґР·РµРјРЅР°СЏ 2";
 					color = STRATEGY_RED;
 					type = THICK;
 					active_ = false;
@@ -726,7 +726,7 @@ TriggerChain = {
 					};
 				},
 				{
-					triggerName = "остановить стр. подземной 1";
+					triggerName = "РѕСЃС‚Р°РЅРѕРІРёС‚СЊ СЃС‚СЂ. РїРѕРґР·РµРјРЅРѕР№ 1";
 					color = STRATEGY_GREEN;
 					type = THIN;
 					active_ = false;
@@ -765,7 +765,7 @@ TriggerChain = {
 			};
 		},
 		{
-			name = "летная лаборатория";
+			name = "Р»РµС‚РЅР°СЏ Р»Р°Р±РѕСЂР°С‚РѕСЂРёСЏ";
 			condition = "struct ConditionSwitcher" {
 				state_ = false;
 				internalColor_ = 0;
@@ -827,7 +827,7 @@ TriggerChain = {
 			outcomingLinks = {
 				2;
 				{
-					triggerName = "летная 2";
+					triggerName = "Р»РµС‚РЅР°СЏ 2";
 					color = STRATEGY_RED;
 					type = THICK;
 					active_ = false;
@@ -845,7 +845,7 @@ TriggerChain = {
 					};
 				},
 				{
-					triggerName = "остановить стр. летной 1";
+					triggerName = "РѕСЃС‚Р°РЅРѕРІРёС‚СЊ СЃС‚СЂ. Р»РµС‚РЅРѕР№ 1";
 					color = STRATEGY_GREEN;
 					type = THIN;
 					active_ = false;
@@ -964,7 +964,7 @@ TriggerChain = {
 					};
 				},
 				{
-					triggerName = "остановить стр. бомбовой 1";
+					triggerName = "РѕСЃС‚Р°РЅРѕРІРёС‚СЊ СЃС‚СЂ. Р±РѕРјР±РѕРІРѕР№ 1";
 					color = STRATEGY_GREEN;
 					type = THIN;
 					active_ = false;
@@ -1083,7 +1083,7 @@ TriggerChain = {
 					};
 				},
 				{
-					triggerName = "остановить стр. лазерной 2";
+					triggerName = "РѕСЃС‚Р°РЅРѕРІРёС‚СЊ СЃС‚СЂ. Р»Р°Р·РµСЂРЅРѕР№ 2";
 					color = STRATEGY_GREEN;
 					type = THIN;
 					active_ = false;
@@ -1169,7 +1169,7 @@ TriggerChain = {
 					};
 				},
 				{
-					triggerName = "остановить стр. ракетной 2 ";
+					triggerName = "РѕСЃС‚Р°РЅРѕРІРёС‚СЊ СЃС‚СЂ. СЂР°РєРµС‚РЅРѕР№ 2 ";
 					color = STRATEGY_GREEN;
 					type = THIN;
 					active_ = false;
@@ -1288,7 +1288,7 @@ TriggerChain = {
 					};
 				},
 				{
-					triggerName = "остановить стр.бомбовой 2";
+					triggerName = "РѕСЃС‚Р°РЅРѕРІРёС‚СЊ СЃС‚СЂ.Р±РѕРјР±РѕРІРѕР№ 2";
 					color = STRATEGY_GREEN;
 					type = THIN;
 					active_ = false;
@@ -1389,7 +1389,7 @@ TriggerChain = {
 			outcomingLinks = {
 				1;
 				{
-					triggerName = "остановить стр. лазерной 3";
+					triggerName = "РѕСЃС‚Р°РЅРѕРІРёС‚СЊ СЃС‚СЂ. Р»Р°Р·РµСЂРЅРѕР№ 3";
 					color = STRATEGY_RED;
 					type = THIN;
 					active_ = false;
@@ -1490,7 +1490,7 @@ TriggerChain = {
 			outcomingLinks = {
 				1;
 				{
-					triggerName = "остановить стр. ракетной 3";
+					triggerName = "РѕСЃС‚Р°РЅРѕРІРёС‚СЊ СЃС‚СЂ. СЂР°РєРµС‚РЅРѕР№ 3";
 					color = STRATEGY_RED;
 					type = THIN;
 					active_ = false;
@@ -1591,7 +1591,7 @@ TriggerChain = {
 			outcomingLinks = {
 				1;
 				{
-					triggerName = "остановить стр. бомбовой 3";
+					triggerName = "РѕСЃС‚Р°РЅРѕРІРёС‚СЊ СЃС‚СЂ. Р±РѕРјР±РѕРІРѕР№ 3";
 					color = STRATEGY_RED;
 					type = THIN;
 					active_ = false;
@@ -1630,7 +1630,7 @@ TriggerChain = {
 			};
 		},
 		{
-			name = "подземная 2";
+			name = "РїРѕРґР·РµРјРЅР°СЏ 2";
 			condition = "struct ConditionSwitcher" {
 				state_ = false;
 				internalColor_ = 0;
@@ -1659,7 +1659,7 @@ TriggerChain = {
 			outcomingLinks = {
 				1;
 				{
-					triggerName = "остановить стр. подземной 2";
+					triggerName = "РѕСЃС‚Р°РЅРѕРІРёС‚СЊ СЃС‚СЂ. РїРѕРґР·РµРјРЅРѕР№ 2";
 					color = STRATEGY_RED;
 					type = THIN;
 					active_ = false;
@@ -1698,7 +1698,7 @@ TriggerChain = {
 			};
 		},
 		{
-			name = "летная 2";
+			name = "Р»РµС‚РЅР°СЏ 2";
 			condition = "struct ConditionSwitcher" {
 				state_ = false;
 				internalColor_ = 0;
@@ -1760,7 +1760,7 @@ TriggerChain = {
 			outcomingLinks = {
 				1;
 				{
-					triggerName = "остановить стр. летной 2";
+					triggerName = "РѕСЃС‚Р°РЅРѕРІРёС‚СЊ СЃС‚СЂ. Р»РµС‚РЅРѕР№ 2";
 					color = STRATEGY_RED;
 					type = THIN;
 					active_ = false;
@@ -1799,7 +1799,7 @@ TriggerChain = {
 			};
 		},
 		{
-			name = "лазерная пушка";
+			name = "Р»Р°Р·РµСЂРЅР°СЏ РїСѓС€РєР°";
 			condition = "struct ConditionSwitcher" {
 				state_ = false;
 				internalColor_ = 0;
@@ -1832,7 +1832,7 @@ TriggerChain = {
 			outcomingLinks = {
 				1;
 				{
-					triggerName = "остановить стр. лазерной пушки";
+					triggerName = "РѕСЃС‚Р°РЅРѕРІРёС‚СЊ СЃС‚СЂ. Р»Р°Р·РµСЂРЅРѕР№ РїСѓС€РєРё";
 					color = STRATEGY_RED;
 					type = THIN;
 					active_ = false;
@@ -1871,7 +1871,7 @@ TriggerChain = {
 			};
 		},
 		{
-			name = "ракетница";
+			name = "СЂР°РєРµС‚РЅРёС†Р°";
 			condition = "struct ConditionSwitcher" {
 				state_ = false;
 				internalColor_ = 0;
@@ -1904,7 +1904,7 @@ TriggerChain = {
 			outcomingLinks = {
 				1;
 				{
-					triggerName = "остановить стр. ракетной пушки";
+					triggerName = "РѕСЃС‚Р°РЅРѕРІРёС‚СЊ СЃС‚СЂ. СЂР°РєРµС‚РЅРѕР№ РїСѓС€РєРё";
 					color = STRATEGY_RED;
 					type = THIN;
 					active_ = false;
@@ -1943,7 +1943,7 @@ TriggerChain = {
 			};
 		},
 		{
-			name = "подземная пушка";
+			name = "РїРѕРґР·РµРјРЅР°СЏ РїСѓС€РєР°";
 			condition = "struct ConditionSwitcher" {
 				state_ = false;
 				internalColor_ = 0;
@@ -1984,7 +1984,7 @@ TriggerChain = {
 			outcomingLinks = {
 				1;
 				{
-					triggerName = "остановить стр. подземной пушки";
+					triggerName = "РѕСЃС‚Р°РЅРѕРІРёС‚СЊ СЃС‚СЂ. РїРѕРґР·РµРјРЅРѕР№ РїСѓС€РєРё";
 					color = STRATEGY_RED;
 					type = THIN;
 					active_ = false;
@@ -2023,7 +2023,7 @@ TriggerChain = {
 			};
 		},
 		{
-			name = "гаубица";
+			name = "РіР°СѓР±РёС†Р°";
 			condition = "struct ConditionSwitcher" {
 				state_ = false;
 				internalColor_ = 0;
@@ -2054,7 +2054,7 @@ TriggerChain = {
 			outcomingLinks = {
 				1;
 				{
-					triggerName = "остановить стр. гаубицы";
+					triggerName = "РѕСЃС‚Р°РЅРѕРІРёС‚СЊ СЃС‚СЂ. РіР°СѓР±РёС†С‹";
 					color = STRATEGY_RED;
 					type = THIN;
 					active_ = false;
@@ -2093,7 +2093,7 @@ TriggerChain = {
 			};
 		},
 		{
-			name = "вкл. поле";
+			name = "РІРєР». РїРѕР»Рµ";
 			condition = "struct ConditionSwitcher" {
 				state_ = false;
 				internalColor_ = 0;
@@ -2148,7 +2148,7 @@ TriggerChain = {
 			};
 		},
 		{
-			name = "победа";
+			name = "РїРѕР±РµРґР°";
 			condition = "struct ConditionSwitcher" {
 				state_ = false;
 				internalColor_ = 0;
@@ -2195,7 +2195,7 @@ TriggerChain = {
 			};
 		},
 		{
-			name = "поражение";
+			name = "РїРѕСЂР°Р¶РµРЅРёРµ";
 			condition = "struct ConditionSwitcher" {
 				state_ = false;
 				internalColor_ = 0;
@@ -2242,7 +2242,7 @@ TriggerChain = {
 			};
 		},
 		{
-			name = "ядро к врагу";
+			name = "СЏРґСЂРѕ Рє РІСЂР°РіСѓ";
 			condition = "struct ConditionSwitcher" {
 				state_ = false;
 				internalColor_ = 0;
@@ -2303,7 +2303,7 @@ TriggerChain = {
 			};
 		},
 		{
-			name = "захват строений";
+			name = "Р·Р°С…РІР°С‚ СЃС‚СЂРѕРµРЅРёР№";
 			condition = "struct ConditionSwitcher" {
 				state_ = false;
 				internalColor_ = 0;
@@ -2355,7 +2355,7 @@ TriggerChain = {
 			};
 		},
 		{
-			name = "остановить стр. завода солдат ";
+			name = "РѕСЃС‚Р°РЅРѕРІРёС‚СЊ СЃС‚СЂ. Р·Р°РІРѕРґР° СЃРѕР»РґР°С‚ ";
 			condition = "struct ConditionSwitcher" {
 				state_ = false;
 				internalColor_ = 0;
@@ -2401,7 +2401,7 @@ TriggerChain = {
 			};
 		},
 		{
-			name = "остановить стр. завода офицеров";
+			name = "РѕСЃС‚Р°РЅРѕРІРёС‚СЊ СЃС‚СЂ. Р·Р°РІРѕРґР° РѕС„РёС†РµСЂРѕРІ";
 			condition = "struct ConditionSwitcher" {
 				state_ = false;
 				internalColor_ = 0;
@@ -2447,7 +2447,7 @@ TriggerChain = {
 			};
 		},
 		{
-			name = "остановить стр. завода техников";
+			name = "РѕСЃС‚Р°РЅРѕРІРёС‚СЊ СЃС‚СЂ. Р·Р°РІРѕРґР° С‚РµС…РЅРёРєРѕРІ";
 			condition = "struct ConditionSwitcher" {
 				state_ = false;
 				internalColor_ = 0;
@@ -2493,7 +2493,7 @@ TriggerChain = {
 			};
 		},
 		{
-			name = "остановить стр. лазерной лаборатории 1";
+			name = "РѕСЃС‚Р°РЅРѕРІРёС‚СЊ СЃС‚СЂ. Р»Р°Р·РµСЂРЅРѕР№ Р»Р°Р±РѕСЂР°С‚РѕСЂРёРё 1";
 			condition = "struct ConditionSwitcher" {
 				state_ = false;
 				internalColor_ = 0;
@@ -2539,7 +2539,7 @@ TriggerChain = {
 			};
 		},
 		{
-			name = "остановить стр. ракетной лаб. 1";
+			name = "РѕСЃС‚Р°РЅРѕРІРёС‚СЊ СЃС‚СЂ. СЂР°РєРµС‚РЅРѕР№ Р»Р°Р±. 1";
 			condition = "struct ConditionSwitcher" {
 				state_ = false;
 				internalColor_ = 0;
@@ -2585,7 +2585,7 @@ TriggerChain = {
 			};
 		},
 		{
-			name = "остановить стр. бомбовой 1";
+			name = "РѕСЃС‚Р°РЅРѕРІРёС‚СЊ СЃС‚СЂ. Р±РѕРјР±РѕРІРѕР№ 1";
 			condition = "struct ConditionSwitcher" {
 				state_ = false;
 				internalColor_ = 0;
@@ -2631,7 +2631,7 @@ TriggerChain = {
 			};
 		},
 		{
-			name = "остановить стр. усилителя";
+			name = "РѕСЃС‚Р°РЅРѕРІРёС‚СЊ СЃС‚СЂ. СѓСЃРёР»РёС‚РµР»СЏ";
 			condition = "struct ConditionSwitcher" {
 				state_ = false;
 				internalColor_ = 0;
@@ -2677,7 +2677,7 @@ TriggerChain = {
 			};
 		},
 		{
-			name = "остановить стр. летной 1";
+			name = "РѕСЃС‚Р°РЅРѕРІРёС‚СЊ СЃС‚СЂ. Р»РµС‚РЅРѕР№ 1";
 			condition = "struct ConditionSwitcher" {
 				state_ = false;
 				internalColor_ = 0;
@@ -2723,7 +2723,7 @@ TriggerChain = {
 			};
 		},
 		{
-			name = "остановить стр. подземной 1";
+			name = "РѕСЃС‚Р°РЅРѕРІРёС‚СЊ СЃС‚СЂ. РїРѕРґР·РµРјРЅРѕР№ 1";
 			condition = "struct ConditionSwitcher" {
 				state_ = false;
 				internalColor_ = 0;
@@ -2769,7 +2769,7 @@ TriggerChain = {
 			};
 		},
 		{
-			name = "остановить стр. лазерной пушки";
+			name = "РѕСЃС‚Р°РЅРѕРІРёС‚СЊ СЃС‚СЂ. Р»Р°Р·РµСЂРЅРѕР№ РїСѓС€РєРё";
 			condition = "struct ConditionSwitcher" {
 				state_ = false;
 				internalColor_ = 0;
@@ -2815,7 +2815,7 @@ TriggerChain = {
 			};
 		},
 		{
-			name = "остановить стр. ракетной пушки";
+			name = "РѕСЃС‚Р°РЅРѕРІРёС‚СЊ СЃС‚СЂ. СЂР°РєРµС‚РЅРѕР№ РїСѓС€РєРё";
 			condition = "struct ConditionSwitcher" {
 				state_ = false;
 				internalColor_ = 0;
@@ -2861,7 +2861,7 @@ TriggerChain = {
 			};
 		},
 		{
-			name = "остановить стр. гаубицы";
+			name = "РѕСЃС‚Р°РЅРѕРІРёС‚СЊ СЃС‚СЂ. РіР°СѓР±РёС†С‹";
 			condition = "struct ConditionSwitcher" {
 				state_ = false;
 				internalColor_ = 0;
@@ -2907,7 +2907,7 @@ TriggerChain = {
 			};
 		},
 		{
-			name = "остановить стр. подземной пушки";
+			name = "РѕСЃС‚Р°РЅРѕРІРёС‚СЊ СЃС‚СЂ. РїРѕРґР·РµРјРЅРѕР№ РїСѓС€РєРё";
 			condition = "struct ConditionSwitcher" {
 				state_ = false;
 				internalColor_ = 0;
@@ -2953,7 +2953,7 @@ TriggerChain = {
 			};
 		},
 		{
-			name = "остановить стр. лазерной 2";
+			name = "РѕСЃС‚Р°РЅРѕРІРёС‚СЊ СЃС‚СЂ. Р»Р°Р·РµСЂРЅРѕР№ 2";
 			condition = "struct ConditionSwitcher" {
 				state_ = false;
 				internalColor_ = 0;
@@ -2999,7 +2999,7 @@ TriggerChain = {
 			};
 		},
 		{
-			name = "остановить стр. ракетной 2 ";
+			name = "РѕСЃС‚Р°РЅРѕРІРёС‚СЊ СЃС‚СЂ. СЂР°РєРµС‚РЅРѕР№ 2 ";
 			condition = "struct ConditionSwitcher" {
 				state_ = false;
 				internalColor_ = 0;
@@ -3045,7 +3045,7 @@ TriggerChain = {
 			};
 		},
 		{
-			name = "остановить стр.бомбовой 2";
+			name = "РѕСЃС‚Р°РЅРѕРІРёС‚СЊ СЃС‚СЂ.Р±РѕРјР±РѕРІРѕР№ 2";
 			condition = "struct ConditionSwitcher" {
 				state_ = false;
 				internalColor_ = 0;
@@ -3091,7 +3091,7 @@ TriggerChain = {
 			};
 		},
 		{
-			name = "остановить стр. лазерной 3";
+			name = "РѕСЃС‚Р°РЅРѕРІРёС‚СЊ СЃС‚СЂ. Р»Р°Р·РµСЂРЅРѕР№ 3";
 			condition = "struct ConditionSwitcher" {
 				state_ = false;
 				internalColor_ = 0;
@@ -3137,7 +3137,7 @@ TriggerChain = {
 			};
 		},
 		{
-			name = "остановить стр. ракетной 3";
+			name = "РѕСЃС‚Р°РЅРѕРІРёС‚СЊ СЃС‚СЂ. СЂР°РєРµС‚РЅРѕР№ 3";
 			condition = "struct ConditionSwitcher" {
 				state_ = false;
 				internalColor_ = 0;
@@ -3183,7 +3183,7 @@ TriggerChain = {
 			};
 		},
 		{
-			name = "остановить стр. бомбовой 3";
+			name = "РѕСЃС‚Р°РЅРѕРІРёС‚СЊ СЃС‚СЂ. Р±РѕРјР±РѕРІРѕР№ 3";
 			condition = "struct ConditionSwitcher" {
 				state_ = false;
 				internalColor_ = 0;
@@ -3229,7 +3229,7 @@ TriggerChain = {
 			};
 		},
 		{
-			name = "остановить стр. летной 2";
+			name = "РѕСЃС‚Р°РЅРѕРІРёС‚СЊ СЃС‚СЂ. Р»РµС‚РЅРѕР№ 2";
 			condition = "struct ConditionSwitcher" {
 				state_ = false;
 				internalColor_ = 0;
@@ -3275,7 +3275,7 @@ TriggerChain = {
 			};
 		},
 		{
-			name = "остановить стр. подземной 2";
+			name = "РѕСЃС‚Р°РЅРѕРІРёС‚СЊ СЃС‚СЂ. РїРѕРґР·РµРјРЅРѕР№ 2";
 			condition = "struct ConditionSwitcher" {
 				state_ = false;
 				internalColor_ = 0;
@@ -3321,7 +3321,7 @@ TriggerChain = {
 			};
 		},
 		{
-			name = "командный центр";
+			name = "РєРѕРјР°РЅРґРЅС‹Р№ С†РµРЅС‚СЂ";
 			condition = "struct ConditionSwitcher" {
 				state_ = false;
 				internalColor_ = 0;
@@ -3592,7 +3592,7 @@ TriggerChain = {
 			outcomingLinks = {
 				1;
 				{
-					triggerName = "остановить строительство КЦ";
+					triggerName = "РѕСЃС‚Р°РЅРѕРІРёС‚СЊ СЃС‚СЂРѕРёС‚РµР»СЊСЃС‚РІРѕ РљР¦";
 					color = STRATEGY_RED;
 					type = THIN;
 					active_ = false;
@@ -3631,7 +3631,7 @@ TriggerChain = {
 			};
 		},
 		{
-			name = "остановить строительство КЦ";
+			name = "РѕСЃС‚Р°РЅРѕРІРёС‚СЊ СЃС‚СЂРѕРёС‚РµР»СЊСЃС‚РІРѕ РљР¦";
 			condition = "struct ConditionSwitcher" {
 				state_ = false;
 				internalColor_ = 0;
@@ -3677,7 +3677,7 @@ TriggerChain = {
 			};
 		},
 		{
-			name = "продавать любое строение";
+			name = "РїСЂРѕРґР°РІР°С‚СЊ Р»СЋР±РѕРµ СЃС‚СЂРѕРµРЅРёРµ";
 			condition = "struct ConditionSwitcher" {
 				state_ = true;
 				internalColor_ = 0;
@@ -3728,7 +3728,7 @@ TriggerChain = {
 			};
 		},
 		{
-			name = "дополнительный завод солдат";
+			name = "РґРѕРїРѕР»РЅРёС‚РµР»СЊРЅС‹Р№ Р·Р°РІРѕРґ СЃРѕР»РґР°С‚";
 			condition = "struct ConditionSwitcher" {
 				state_ = false;
 				internalColor_ = 0;
@@ -3787,7 +3787,7 @@ TriggerChain = {
 			outcomingLinks = {
 				1;
 				{
-					triggerName = "остановить стр. завода солдат ";
+					triggerName = "РѕСЃС‚Р°РЅРѕРІРёС‚СЊ СЃС‚СЂ. Р·Р°РІРѕРґР° СЃРѕР»РґР°С‚ ";
 					color = STRATEGY_GREEN;
 					type = THIN;
 					active_ = false;
@@ -3826,7 +3826,7 @@ TriggerChain = {
 			};
 		},
 		{
-			name = "дополнительный завод офицеров";
+			name = "РґРѕРїРѕР»РЅРёС‚РµР»СЊРЅС‹Р№ Р·Р°РІРѕРґ РѕС„РёС†РµСЂРѕРІ";
 			condition = "struct ConditionSwitcher" {
 				state_ = false;
 				internalColor_ = 0;
@@ -3885,7 +3885,7 @@ TriggerChain = {
 			outcomingLinks = {
 				1;
 				{
-					triggerName = "остановить стр. завода офицеров";
+					triggerName = "РѕСЃС‚Р°РЅРѕРІРёС‚СЊ СЃС‚СЂ. Р·Р°РІРѕРґР° РѕС„РёС†РµСЂРѕРІ";
 					color = STRATEGY_GREEN;
 					type = THIN;
 					active_ = false;
@@ -3924,7 +3924,7 @@ TriggerChain = {
 			};
 		},
 		{
-			name = "дополнительный завод техников";
+			name = "РґРѕРїРѕР»РЅРёС‚РµР»СЊРЅС‹Р№ Р·Р°РІРѕРґ С‚РµС…РЅРёРєРѕРІ";
 			condition = "struct ConditionSwitcher" {
 				state_ = false;
 				internalColor_ = 0;
@@ -3983,7 +3983,7 @@ TriggerChain = {
 			outcomingLinks = {
 				1;
 				{
-					triggerName = "остановить стр. завода техников";
+					triggerName = "РѕСЃС‚Р°РЅРѕРІРёС‚СЊ СЃС‚СЂ. Р·Р°РІРѕРґР° С‚РµС…РЅРёРєРѕРІ";
 					color = STRATEGY_GREEN;
 					type = THIN;
 					active_ = false;
@@ -4022,7 +4022,7 @@ TriggerChain = {
 			};
 		},
 		{
-			name = "СКВАД 0- базовые юниты";
+			name = "РЎРљР’РђР” 0- Р±Р°Р·РѕРІС‹Рµ СЋРЅРёС‚С‹";
 			condition = "struct ConditionSwitcher" {
 				state_ = true;
 				internalColor_ = 0;
@@ -4075,7 +4075,7 @@ TriggerChain = {
 			};
 		},
 		{
-			name = "атака базовыми С-0";
+			name = "Р°С‚Р°РєР° Р±Р°Р·РѕРІС‹РјРё РЎ-0";
 			condition = "struct ConditionSwitcher" {
 				state_ = true;
 				internalColor_ = 0;
@@ -4290,7 +4290,7 @@ TriggerChain = {
 			};
 		},
 		{
-			name = "С 0 - героид";
+			name = "РЎ 0 - РіРµСЂРѕРёРґ";
 			condition = "struct ConditionSwitcher" {
 				state_ = true;
 				internalColor_ = 0;
@@ -4525,7 +4525,7 @@ TriggerChain = {
 			};
 		},
 		{
-			name = "С-0 - цептор ";
+			name = "РЎ-0 - С†РµРїС‚РѕСЂ ";
 			condition = "struct ConditionSwitcher" {
 				state_ = false;
 				internalColor_ = 0;
@@ -4650,7 +4650,7 @@ TriggerChain = {
 			};
 		},
 		{
-			name = "С 0- бомбер";
+			name = "РЎ 0- Р±РѕРјР±РµСЂ";
 			condition = "struct ConditionSwitcher" {
 				state_ = true;
 				internalColor_ = 0;
@@ -4803,7 +4803,7 @@ TriggerChain = {
 			};
 		},
 		{
-			name = "С 0-рокер";
+			name = "РЎ 0-СЂРѕРєРµСЂ";
 			condition = "struct ConditionSwitcher" {
 				state_ = true;
 				internalColor_ = 0;
@@ -5030,7 +5030,7 @@ TriggerChain = {
 			};
 		},
 		{
-			name = "С 0-снайпер";
+			name = "РЎ 0-СЃРЅР°Р№РїРµСЂ";
 			condition = "struct ConditionSwitcher" {
 				state_ = true;
 				internalColor_ = 0;
@@ -5328,7 +5328,7 @@ TriggerChain = {
 			};
 		},
 		{
-			name = "С 0-мортар";
+			name = "РЎ 0-РјРѕСЂС‚Р°СЂ";
 			condition = "struct ConditionSwitcher" {
 				state_ = true;
 				internalColor_ = 0;
@@ -5498,7 +5498,7 @@ TriggerChain = {
 			};
 		},
 		{
-			name = "С 0- Р-проектор";
+			name = "РЎ 0- Р -РїСЂРѕРµРєС‚РѕСЂ";
 			condition = "struct ConditionSwitcher" {
 				state_ = false;
 				internalColor_ = 0;
@@ -5659,7 +5659,7 @@ TriggerChain = {
 			};
 		},
 		{
-			name = "С 0- варгон";
+			name = "РЎ 0- РІР°СЂРіРѕРЅ";
 			condition = "struct ConditionSwitcher" {
 				state_ = true;
 				internalColor_ = 0;
@@ -5824,7 +5824,7 @@ TriggerChain = {
 			};
 		},
 		{
-			name = "С 0- стрейфер";
+			name = "РЎ 0- СЃС‚СЂРµР№С„РµСЂ";
 			condition = "struct ConditionSwitcher" {
 				state_ = false;
 				internalColor_ = 0;
@@ -6028,7 +6028,7 @@ TriggerChain = {
 			};
 		},
 		{
-			name = "С 0- дигер";
+			name = "РЎ 0- РґРёРіРµСЂ";
 			condition = "struct ConditionSwitcher" {
 				state_ = false;
 				internalColor_ = 0;
@@ -6133,7 +6133,7 @@ TriggerChain = {
 			};
 		},
 		{
-			name = "С 0-стамер";
+			name = "РЎ 0-СЃС‚Р°РјРµСЂ";
 			condition = "struct ConditionSwitcher" {
 				state_ = false;
 				internalColor_ = 0;
@@ -6230,7 +6230,7 @@ TriggerChain = {
 			};
 		},
 		{
-			name = "С 0- экстерпатор";
+			name = "РЎ 0- СЌРєСЃС‚РµСЂРїР°С‚РѕСЂ";
 			condition = "struct ConditionSwitcher" {
 				state_ = false;
 				internalColor_ = 0;
@@ -6309,7 +6309,7 @@ TriggerChain = {
 			};
 		},
 		{
-			name = "С1-заказать юнитов";
+			name = "РЎ1-Р·Р°РєР°Р·Р°С‚СЊ СЋРЅРёС‚РѕРІ";
 			condition = "struct ConditionSwitcher" {
 				state_ = false;
 				internalColor_ = 0;
@@ -6362,7 +6362,7 @@ TriggerChain = {
 			};
 		},
 		{
-			name = "С 0-снайпер";
+			name = "РЎ 0-СЃРЅР°Р№РїРµСЂ";
 			condition = "struct ConditionSwitcher" {
 				state_ = false;
 				internalColor_ = 0;
@@ -6442,7 +6442,7 @@ TriggerChain = {
 			};
 		},
 		{
-			name = "С 0 - героид";
+			name = "РЎ 0 - РіРµСЂРѕРёРґ";
 			condition = "struct ConditionSwitcher" {
 				state_ = false;
 				internalColor_ = 0;
@@ -6514,7 +6514,7 @@ TriggerChain = {
 			};
 		},
 		{
-			name = "С2-заказать юнитов";
+			name = "РЎ2-Р·Р°РєР°Р·Р°С‚СЊ СЋРЅРёС‚РѕРІ";
 			condition = "struct ConditionSwitcher" {
 				state_ = true;
 				internalColor_ = 0;
@@ -6567,7 +6567,7 @@ TriggerChain = {
 			};
 		},
 		{
-			name = "С 0-рокер";
+			name = "РЎ 0-СЂРѕРєРµСЂ";
 			condition = "struct ConditionSwitcher" {
 				state_ = true;
 				internalColor_ = 0;
@@ -6650,7 +6650,7 @@ TriggerChain = {
 			};
 		},
 		{
-			name = "С 0- Р-проектор";
+			name = "РЎ 0- Р -РїСЂРѕРµРєС‚РѕСЂ";
 			condition = "struct ConditionSwitcher" {
 				state_ = true;
 				internalColor_ = 0;
@@ -6725,7 +6725,7 @@ TriggerChain = {
 			};
 		},
 		{
-			name = "С 0- экстерпатор";
+			name = "РЎ 0- СЌРєСЃС‚РµСЂРїР°С‚РѕСЂ";
 			condition = "struct ConditionSwitcher" {
 				state_ = true;
 				internalColor_ = 0;
@@ -6795,7 +6795,7 @@ TriggerChain = {
 			};
 		},
 		{
-			name = "С-0 - цептор ";
+			name = "РЎ-0 - С†РµРїС‚РѕСЂ ";
 			condition = "struct ConditionSwitcher" {
 				state_ = true;
 				internalColor_ = 0;
@@ -6862,7 +6862,7 @@ TriggerChain = {
 			};
 		},
 		{
-			name = "С3-заказать юнитов";
+			name = "РЎ3-Р·Р°РєР°Р·Р°С‚СЊ СЋРЅРёС‚РѕРІ";
 			condition = "struct ConditionSwitcher" {
 				state_ = true;
 				internalColor_ = 0;
@@ -6915,7 +6915,7 @@ TriggerChain = {
 			};
 		},
 		{
-			name = "С 0- варгон";
+			name = "РЎ 0- РІР°СЂРіРѕРЅ";
 			condition = "struct ConditionSwitcher" {
 				state_ = true;
 				internalColor_ = 0;
@@ -6983,7 +6983,7 @@ TriggerChain = {
 			};
 		},
 		{
-			name = "С 0-мортар";
+			name = "РЎ 0-РјРѕСЂС‚Р°СЂ";
 			condition = "struct ConditionSwitcher" {
 				state_ = true;
 				internalColor_ = 0;
@@ -7059,7 +7059,7 @@ TriggerChain = {
 			};
 		},
 		{
-			name = "С 0- бомбер";
+			name = "РЎ 0- Р±РѕРјР±РµСЂ";
 			condition = "struct ConditionSwitcher" {
 				state_ = true;
 				internalColor_ = 0;
@@ -7130,7 +7130,7 @@ TriggerChain = {
 			};
 		},
 		{
-			name = "С4-заказать юнитов";
+			name = "РЎ4-Р·Р°РєР°Р·Р°С‚СЊ СЋРЅРёС‚РѕРІ";
 			condition = "struct ConditionSwitcher" {
 				state_ = true;
 				internalColor_ = 0;
@@ -7183,7 +7183,7 @@ TriggerChain = {
 			};
 		},
 		{
-			name = "С 0-скамер";
+			name = "РЎ 0-СЃРєР°РјРµСЂ";
 			condition = "struct ConditionSwitcher" {
 				state_ = true;
 				internalColor_ = 0;
@@ -7253,7 +7253,7 @@ TriggerChain = {
 			};
 		},
 		{
-			name = "С 0- дигер";
+			name = "РЎ 0- РґРёРіРµСЂ";
 			condition = "struct ConditionSwitcher" {
 				state_ = true;
 				internalColor_ = 0;

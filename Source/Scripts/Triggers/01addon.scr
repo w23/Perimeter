@@ -16,7 +16,7 @@ TriggerChain = {
 			outcomingLinks = {
 				1;
 				{
-					triggerName = "телепортировать";
+					triggerName = "С‚РµР»РµРїРѕСЂС‚РёСЂРѕРІР°С‚СЊ";
 					color = STRATEGY_RED;
 					type = THIN;
 					active_ = false;
@@ -107,7 +107,7 @@ TriggerChain = {
 			};
 		},
 		{
-			name = "телепортировать";
+			name = "С‚РµР»РµРїРѕСЂС‚РёСЂРѕРІР°С‚СЊ";
 			condition = "struct ConditionSwitcher" {
 				state_ = false;
 				internalColor_ = 0;

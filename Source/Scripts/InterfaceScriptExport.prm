@@ -69,7 +69,7 @@ struct sqshControl
 
 	BGObj bgObject = {};
 
-	//текст и его смещение для кнопок меню
+	//С‚РµРєСЃС‚ Рё РµРіРѕ СЃРјРµС‰РµРЅРёРµ РґР»СЏ РєРЅРѕРїРѕРє РјРµРЅСЋ
 	string text = "";
 	float    txt_dx = 0;
 	float    txt_dy = 0;
@@ -134,7 +134,7 @@ struct sqshControlContainer
 };
 
 ////////////////////////////////////////////////////////////////////////////////////////////////////////////////
-//tabsheets для нового интерфейса
+//tabsheets РґР»СЏ РЅРѕРІРѕРіРѕ РёРЅС‚РµСЂС„РµР№СЃР°
 struct TabIcon {
 	sqshImage image = {};
 	sqshImage image_h = {};
@@ -1473,7 +1473,7 @@ sqshControlContainer _sqsh_controls[int _sqsh_control_count] = {
 
 
 		{
-			//карта
+			//РєР°СЂС‚Р°
 			type = SQSH_MAP_WINDOW_TYPE;
 			id   = SQSH_MAP_WINDOW_ID;
 			x = 9.0f / 1024.0f;
@@ -1482,7 +1482,7 @@ sqshControlContainer _sqsh_controls[int _sqsh_control_count] = {
 			sy= 128.0f / 768.0f;
 		},
 		{
-			//рабочая зона
+			//СЂР°Р±РѕС‡Р°СЏ Р·РѕРЅР°
 			type = SQSH_COMPLEX_PUSH_BUTTON_TYPE;
 			id   = SQSH_WORKAREA3_ID;
 			state= SQSH_VISIBLE|SQSH_ENABLED|SQSH_SWITCH;
@@ -1520,7 +1520,7 @@ sqshControlContainer _sqsh_controls[int _sqsh_control_count] = {
 			};
 		},
 		{
-			//ров
+			//СЂРѕРІ
 			type = SQSH_COMPLEX_PUSH_BUTTON_TYPE;
 			id   = SQSH_WORKAREA2_ID;
 			state= SQSH_VISIBLE|SQSH_ENABLED|SQSH_SWITCH;
@@ -1586,7 +1586,7 @@ sqshControlContainer _sqsh_controls[int _sqsh_control_count] = {
 			};
 		},
 		{
-			//поле вкл.
+			//РїРѕР»Рµ РІРєР».
 			type = SQSH_COMPLEX_PUSH_BUTTON_TYPE;
 			id   = SQSH_FIELD_ON_ID;
 			state = SQSH_ENABLED|SQSH_VISIBLE;
@@ -1624,7 +1624,7 @@ sqshControlContainer _sqsh_controls[int _sqsh_control_count] = {
 			};
 		},
 		{
-			//поле выкл.
+			//РїРѕР»Рµ РІС‹РєР».
 			type = SQSH_COMPLEX_PUSH_BUTTON_TYPE;
 			id   = SQSH_FIELD_OFF_ID;
 			state = SQSH_ENABLED|SQSH_VISIBLE;
@@ -1663,7 +1663,7 @@ sqshControlContainer _sqsh_controls[int _sqsh_control_count] = {
 		},
 
 		{
-			//пауза
+			//РїР°СѓР·Р°
 			type = SQSH_COMPLEX_PUSH_BUTTON_TYPE;
 			id   = SQSH_SPEED_PAUSE;
 			state= SQSH_VISIBLE|SQSH_ENABLED|SQSH_SWITCH;
@@ -1686,7 +1686,7 @@ sqshControlContainer _sqsh_controls[int _sqsh_control_count] = {
 			popup = "<Pause>";
 		},
 		{
-			//скорость 50%
+			//СЃРєРѕСЂРѕСЃС‚СЊ 50%
 			type = SQSH_COMPLEX_PUSH_BUTTON_TYPE;
 			id   = SQSH_SPEED_50;
 			state= SQSH_VISIBLE|SQSH_ENABLED|SQSH_SWITCH;
@@ -1709,7 +1709,7 @@ sqshControlContainer _sqsh_controls[int _sqsh_control_count] = {
 			popup = "<Speed50>";
 		},
 		{
-			//скорость 100%
+			//СЃРєРѕСЂРѕСЃС‚СЊ 100%
 			type = SQSH_COMPLEX_PUSH_BUTTON_TYPE;
 			id   = SQSH_SPEED_100;
 			state= SQSH_VISIBLE|SQSH_ENABLED|SQSH_SWITCH;
@@ -1732,7 +1732,7 @@ sqshControlContainer _sqsh_controls[int _sqsh_control_count] = {
 			popup = "<Speed100>";
 		},
 		{
-			//скорость 150%
+			//СЃРєРѕСЂРѕСЃС‚СЊ 150%
 			type = SQSH_COMPLEX_PUSH_BUTTON_TYPE;
 			id   = SQSH_SPEED_150;
 			state= SQSH_VISIBLE|SQSH_ENABLED|SQSH_SWITCH;
@@ -2702,7 +2702,7 @@ sqshControlContainer _sqsh_controls[int _sqsh_control_count] = {
 
 		//squad buttons
 		{
-			//солдат
+			//СЃРѕР»РґР°С‚
 			type = SQSH_ATOM_BUTTON_TYPE;
 			id   = SQSH_SOLDIER_ID;
 			state = SQSH_ENABLED|SQSH_VISIBLE;
@@ -2743,7 +2743,7 @@ sqshControlContainer _sqsh_controls[int _sqsh_control_count] = {
 			canHandleDisabledInput = 1;
 		},
 		{
-			//офицер
+			//РѕС„РёС†РµСЂ
 			type = SQSH_ATOM_BUTTON_TYPE;
 			id   = SQSH_OFFICER_ID;
 			state = SQSH_ENABLED|SQSH_VISIBLE;
@@ -2784,7 +2784,7 @@ sqshControlContainer _sqsh_controls[int _sqsh_control_count] = {
 			canHandleDisabledInput = 1;
 		},
 		{
-			//техник
+			//С‚РµС…РЅРёРє
 			type = SQSH_ATOM_BUTTON_TYPE;
 			id   = SQSH_TECHNIC_ID;
 			state = SQSH_ENABLED|SQSH_VISIBLE;
@@ -2824,7 +2824,7 @@ sqshControlContainer _sqsh_controls[int _sqsh_control_count] = {
 			canHandleDisabledInput = 1;
 		},
 		{
-			//объединить
+			//РѕР±СЉРµРґРёРЅРёС‚СЊ
 			type = SQSH_COMPLEX_PUSH_BUTTON_TYPE;
 			id   = SQSH_TOGETHER_ID;
 			state = SQSH_ENABLED|SQSH_VISIBLE;
@@ -2859,7 +2859,7 @@ sqshControlContainer _sqsh_controls[int _sqsh_control_count] = {
 		},
 		//line 1
 		{
-			//разобрать
+			//СЂР°Р·РѕР±СЂР°С‚СЊ
 			type = SQSH_ATOM_BUTTON_TYPE;
 			id   = SQSH_SQUAD_DISINTEGRATE_ID;
 			state = SQSH_ENABLED|SQSH_VISIBLE;
@@ -3765,7 +3765,7 @@ sqshControlContainer _sqsh_controls[int _sqsh_control_count] = {
 	};
 },
 
-//главное меню
+//РіР»Р°РІРЅРѕРµ РјРµРЅСЋ
 {
 	id = SQSH_MM_START_SCR;
 	load_group = SHELL_LOAD_GROUP_MENU;
@@ -5485,7 +5485,7 @@ sqshControlContainer _sqsh_controls[int _sqsh_control_count] = {
 	defaultEscBtnID = SQSH_MM_BACK_CREDITS_BTN;
 },
 
-//заставка
+//Р·Р°СЃС‚Р°РІРєР°
 {
 	type = SQSH_SPLASHSCREEN;
 	id = SQSH_MM_SPLASH1;

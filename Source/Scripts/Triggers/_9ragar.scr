@@ -27,7 +27,7 @@ TriggerChain = {
 			outcomingLinks = {
 				3;
 				{
-					triggerName = "старт";
+					triggerName = "СЃС‚Р°СЂС‚";
 					color = STRATEGY_RED;
 					type = THIN;
 					active_ = false;
@@ -45,7 +45,7 @@ TriggerChain = {
 					};
 				},
 				{
-					triggerName = "терминал";
+					triggerName = "С‚РµСЂРјРёРЅР°Р»";
 					color = STRATEGY_RED;
 					type = THIN;
 					active_ = false;
@@ -132,7 +132,7 @@ TriggerChain = {
 			outcomingLinks = {
 				1;
 				{
-					triggerName = "катсцена";
+					triggerName = "РєР°С‚СЃС†РµРЅР°";
 					color = STRATEGY_RED;
 					type = THIN;
 					active_ = false;
@@ -171,7 +171,7 @@ TriggerChain = {
 			};
 		},
 		{
-			name = "победа";
+			name = "РїРѕР±РµРґР°";
 			condition = "struct ConditionSwitcher" {
 				state_ = true;
 				internalColor_ = 0;
@@ -207,7 +207,7 @@ TriggerChain = {
 			};
 		},
 		{
-			name = "поражение";
+			name = "РїРѕСЂР°Р¶РµРЅРёРµ";
 			condition = "struct ConditionSwitcher" {
 				state_ = false;
 				internalColor_ = 0;
@@ -243,7 +243,7 @@ TriggerChain = {
 			};
 		},
 		{
-			name = "ЗАДАНИЕ";
+			name = "Р—РђР”РђРќРР•";
 			condition = "struct ConditionSwitcher" {
 				state_ = true;
 				internalColor_ = 0;
@@ -277,7 +277,7 @@ TriggerChain = {
 			outcomingLinks = {
 				1;
 				{
-					triggerName = "пауза";
+					triggerName = "РїР°СѓР·Р°";
 					color = STRATEGY_RED;
 					type = THIN;
 					active_ = false;
@@ -316,7 +316,7 @@ TriggerChain = {
 			};
 		},
 		{
-			name = "телепортировать";
+			name = "С‚РµР»РµРїРѕСЂС‚РёСЂРѕРІР°С‚СЊ";
 			condition = "struct ConditionSwitcher" {
 				state_ = true;
 				internalColor_ = 0;
@@ -352,7 +352,7 @@ TriggerChain = {
 			};
 		},
 		{
-			name = "старт";
+			name = "СЃС‚Р°СЂС‚";
 			condition = "struct ConditionSwitcher" {
 				state_ = true;
 				internalColor_ = 0;
@@ -367,7 +367,7 @@ TriggerChain = {
 			outcomingLinks = {
 				9;
 				{
-					triggerName = "телепортировать";
+					triggerName = "С‚РµР»РµРїРѕСЂС‚РёСЂРѕРІР°С‚СЊ";
 					color = STRATEGY_GREEN;
 					type = THIN;
 					active_ = false;
@@ -385,7 +385,7 @@ TriggerChain = {
 					};
 				},
 				{
-					triggerName = "камера на альфу";
+					triggerName = "РєР°РјРµСЂР° РЅР° Р°Р»СЊС„Сѓ";
 					color = STRATEGY_GREEN;
 					type = THIN;
 					active_ = false;
@@ -403,7 +403,7 @@ TriggerChain = {
 					};
 				},
 				{
-					triggerName = "задание1провалено";
+					triggerName = "Р·Р°РґР°РЅРёРµ1РїСЂРѕРІР°Р»РµРЅРѕ";
 					color = STRATEGY_RED;
 					type = THIN;
 					active_ = false;
@@ -421,7 +421,7 @@ TriggerChain = {
 					};
 				},
 				{
-					triggerName = "выкл. интерфейс";
+					triggerName = "РІС‹РєР». РёРЅС‚РµСЂС„РµР№СЃ";
 					color = STRATEGY_GREEN;
 					type = THIN;
 					active_ = false;
@@ -439,7 +439,7 @@ TriggerChain = {
 					};
 				},
 				{
-					triggerName = "победа";
+					triggerName = "РїРѕР±РµРґР°";
 					color = STRATEGY_GREEN;
 					type = THIN;
 					active_ = false;
@@ -457,7 +457,7 @@ TriggerChain = {
 					};
 				},
 				{
-					triggerName = "выкл. интерфейс0";
+					triggerName = "РІС‹РєР». РёРЅС‚РµСЂС„РµР№СЃ0";
 					color = STRATEGY_RED;
 					type = THIN;
 					active_ = false;
@@ -475,7 +475,7 @@ TriggerChain = {
 					};
 				},
 				{
-					triggerName = "на врага";
+					triggerName = "РЅР° РІСЂР°РіР°";
 					color = STRATEGY_RED;
 					type = THIN;
 					active_ = false;
@@ -493,7 +493,7 @@ TriggerChain = {
 					};
 				},
 				{
-					triggerName = "на взрыв";
+					triggerName = "РЅР° РІР·СЂС‹РІ";
 					color = STRATEGY_RED;
 					type = THIN;
 					active_ = false;
@@ -511,7 +511,7 @@ TriggerChain = {
 					};
 				},
 				{
-					triggerName = "на коридор";
+					triggerName = "РЅР° РєРѕСЂРёРґРѕСЂ";
 					color = STRATEGY_RED;
 					type = THIN;
 					active_ = false;
@@ -550,7 +550,7 @@ TriggerChain = {
 			};
 		},
 		{
-			name = "терминал";
+			name = "С‚РµСЂРјРёРЅР°Р»";
 			condition = "struct ConditionSwitcher" {
 				state_ = true;
 				internalColor_ = 0;
@@ -576,7 +576,7 @@ TriggerChain = {
 			outcomingLinks = {
 				2;
 				{
-					triggerName = "ЗАДАНИЕ";
+					triggerName = "Р—РђР”РђРќРР•";
 					color = STRATEGY_RED;
 					type = THIN;
 					active_ = false;
@@ -594,7 +594,7 @@ TriggerChain = {
 					};
 				},
 				{
-					triggerName = "сообщение";
+					triggerName = "СЃРѕРѕР±С‰РµРЅРёРµ";
 					color = STRATEGY_RED;
 					type = THICK;
 					active_ = false;
@@ -633,7 +633,7 @@ TriggerChain = {
 			};
 		},
 		{
-			name = "пауза";
+			name = "РїР°СѓР·Р°";
 			condition = "struct ConditionSwitcher" {
 				state_ = true;
 				internalColor_ = 0;
@@ -654,7 +654,7 @@ TriggerChain = {
 			outcomingLinks = {
 				1;
 				{
-					triggerName = "терминал2";
+					triggerName = "С‚РµСЂРјРёРЅР°Р»2";
 					color = STRATEGY_RED;
 					type = THIN;
 					active_ = false;
@@ -693,7 +693,7 @@ TriggerChain = {
 			};
 		},
 		{
-			name = "терминал2";
+			name = "С‚РµСЂРјРёРЅР°Р»2";
 			condition = "struct ConditionSwitcher" {
 				state_ = true;
 				internalColor_ = 0;
@@ -752,7 +752,7 @@ TriggerChain = {
 			outcomingLinks = {
 				1;
 				{
-					triggerName = "задание1 выполнено";
+					triggerName = "Р·Р°РґР°РЅРёРµ1 РІС‹РїРѕР»РЅРµРЅРѕ";
 					color = STRATEGY_RED;
 					type = THIN;
 					active_ = false;
@@ -791,7 +791,7 @@ TriggerChain = {
 			};
 		},
 		{
-			name = "задание1 выполнено";
+			name = "Р·Р°РґР°РЅРёРµ1 РІС‹РїРѕР»РЅРµРЅРѕ";
 			condition = "struct ConditionSwitcher" {
 				state_ = false;
 				internalColor_ = 0;
@@ -833,7 +833,7 @@ TriggerChain = {
 			outcomingLinks = {
 				1;
 				{
-					triggerName = "на ядро";
+					triggerName = "РЅР° СЏРґСЂРѕ";
 					color = STRATEGY_RED;
 					type = THIN;
 					active_ = false;
@@ -872,7 +872,7 @@ TriggerChain = {
 			};
 		},
 		{
-			name = "камера на альфу";
+			name = "РєР°РјРµСЂР° РЅР° Р°Р»СЊС„Сѓ";
 			condition = "struct ConditionSwitcher" {
 				state_ = false;
 				internalColor_ = 0;
@@ -923,7 +923,7 @@ TriggerChain = {
 			};
 		},
 		{
-			name = "на ядро";
+			name = "РЅР° СЏРґСЂРѕ";
 			condition = "struct ConditionSwitcher" {
 				state_ = true;
 				internalColor_ = 0;
@@ -943,7 +943,7 @@ TriggerChain = {
 			outcomingLinks = {
 				1;
 				{
-					triggerName = "победа";
+					triggerName = "РїРѕР±РµРґР°";
 					color = STRATEGY_GREEN;
 					type = THIN;
 					active_ = false;
@@ -982,7 +982,7 @@ TriggerChain = {
 			};
 		},
 		{
-			name = "катсцена";
+			name = "РєР°С‚СЃС†РµРЅР°";
 			condition = "struct ConditionSwitcher" {
 				state_ = true;
 				internalColor_ = 0;
@@ -993,7 +993,7 @@ TriggerChain = {
 			};
 			action = "struct ActionSetCamera" {
 				internalColor_ = 0;
-				cameraSplineName = "катсцена1";
+				cameraSplineName = "РєР°С‚СЃС†РµРЅР°1";
 				stepTime = 3.;
 				cycles = 1;
 				smoothTransition = true;
@@ -1001,7 +1001,7 @@ TriggerChain = {
 			outcomingLinks = {
 				2;
 				{
-					triggerName = "вкл. интерфейс";
+					triggerName = "РІРєР». РёРЅС‚РµСЂС„РµР№СЃ";
 					color = STRATEGY_GREEN;
 					type = THIN;
 					active_ = false;
@@ -1092,7 +1092,7 @@ TriggerChain = {
 			};
 		},
 		{
-			name = "вкл. интерфейс";
+			name = "РІРєР». РёРЅС‚РµСЂС„РµР№СЃ";
 			condition = "struct ConditionSwitcher" {
 				state_ = true;
 				internalColor_ = 0;
@@ -1108,7 +1108,7 @@ TriggerChain = {
 			outcomingLinks = {
 				1;
 				{
-					triggerName = "ЗАДАНИЕ";
+					triggerName = "Р—РђР”РђРќРР•";
 					color = STRATEGY_RED;
 					type = THIN;
 					active_ = false;
@@ -1147,7 +1147,7 @@ TriggerChain = {
 			};
 		},
 		{
-			name = "выкл. интерфейс";
+			name = "РІС‹РєР». РёРЅС‚РµСЂС„РµР№СЃ";
 			condition = "struct ConditionSwitcher" {
 				state_ = false;
 				internalColor_ = 0;
@@ -1194,7 +1194,7 @@ TriggerChain = {
 			};
 		},
 		{
-			name = "задание1провалено";
+			name = "Р·Р°РґР°РЅРёРµ1РїСЂРѕРІР°Р»РµРЅРѕ";
 			condition = "struct ConditionSwitcher" {
 				state_ = false;
 				internalColor_ = 0;
@@ -1264,7 +1264,7 @@ TriggerChain = {
 			outcomingLinks = {
 				1;
 				{
-					triggerName = "поражение";
+					triggerName = "РїРѕСЂР°Р¶РµРЅРёРµ";
 					color = STRATEGY_RED;
 					type = THIN;
 					active_ = false;
@@ -1303,7 +1303,7 @@ TriggerChain = {
 			};
 		},
 		{
-			name = "выкл. интерфейс0";
+			name = "РІС‹РєР». РёРЅС‚РµСЂС„РµР№СЃ0";
 			condition = "struct ConditionSwitcher" {
 				state_ = false;
 				internalColor_ = 0;
@@ -1387,7 +1387,7 @@ TriggerChain = {
 			};
 		},
 		{
-			name = "на врага";
+			name = "РЅР° РІСЂР°РіР°";
 			condition = "struct ConditionSwitcher" {
 				state_ = false;
 				internalColor_ = 0;
@@ -1447,7 +1447,7 @@ TriggerChain = {
 			};
 		},
 		{
-			name = "на взрыв";
+			name = "РЅР° РІР·СЂС‹РІ";
 			condition = "struct ConditionSwitcher" {
 				state_ = false;
 				internalColor_ = 0;
@@ -1507,7 +1507,7 @@ TriggerChain = {
 			};
 		},
 		{
-			name = "на коридор";
+			name = "РЅР° РєРѕСЂРёРґРѕСЂ";
 			condition = "struct ConditionSwitcher" {
 				state_ = false;
 				internalColor_ = 0;
@@ -1559,7 +1559,7 @@ TriggerChain = {
 			};
 		},
 		{
-			name = "сообщение";
+			name = "СЃРѕРѕР±С‰РµРЅРёРµ";
 			condition = "struct ConditionSwitcher" {
 				state_ = false;
 				internalColor_ = 0;
@@ -1632,7 +1632,7 @@ TriggerChain = {
 			outcomingLinks = {
 				2;
 				{
-					triggerName = "на фрейм0";
+					triggerName = "РЅР° С„СЂРµР№Рј0";
 					color = STRATEGY_RED;
 					type = THIN;
 					active_ = false;
@@ -1731,7 +1731,7 @@ TriggerChain = {
 			};
 		},
 		{
-			name = "на фрейм0";
+			name = "РЅР° С„СЂРµР№Рј0";
 			condition = "struct ConditionSwitcher" {
 				state_ = false;
 				internalColor_ = 0;
@@ -1749,7 +1749,7 @@ TriggerChain = {
 			};
 			action = "struct ActionSetCamera" {
 				internalColor_ = 0;
-				cameraSplineName = "на фрейм";
+				cameraSplineName = "РЅР° С„СЂРµР№Рј";
 				stepTime = 1.;
 				cycles = 1;
 				smoothTransition = false;
@@ -1757,7 +1757,7 @@ TriggerChain = {
 			outcomingLinks = {
 				1;
 				{
-					triggerName = "вкл. интерфейс";
+					triggerName = "РІРєР». РёРЅС‚РµСЂС„РµР№СЃ";
 					color = STRATEGY_RED;
 					type = THIN;
 					active_ = false;

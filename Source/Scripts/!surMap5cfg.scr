@@ -3,7 +3,7 @@ Tree777 = {
 	treeSDTB = {
 		4;
 		"class CSDTBExt<class CExtWRB<class CSurToolEmpty> >" {
-			NodeName = "Рельеф";
+			NodeName = "Р РµР»СЊРµС„";
 			treeSDTB = {
 				6;
 				"class CSDTBExt<class CExtWRB<class CSurToolToolzer> >" {
@@ -16,7 +16,7 @@ Tree777 = {
 					state_level_ZL_or_level_h = 1;
 				},
 				"class CSDTBExt<class CExtWRB<class CSurToolToolzer> >" {
-					NodeName = "Toolzer-насыпать";
+					NodeName = "Toolzer-РЅР°СЃС‹РїР°С‚СЊ";
 					treeSDTB = {
 						0;
 					};
@@ -25,27 +25,27 @@ Tree777 = {
 					state_level_ZL_or_level_h = 0;
 				},
 				"class CSDTBExt<class CExtWRB<class CSurToolGeoNet> >" {
-					NodeName = "Горка 1";
+					NodeName = "Р“РѕСЂРєР° 1";
 					treeSDTB = {
 						0;
 					};
 					m_H = 1480;
 				},
 				"class CSDTBExt<class CExtWRB<class CSurToolGeoNet> >" {
-					NodeName = "Горка большая";
+					NodeName = "Р“РѕСЂРєР° Р±РѕР»СЊС€Р°СЏ";
 					treeSDTB = {
 						0;
 					};
 					m_H = 4046;
 				},
 				"class CSDTBExt<class CExtWRB<class CSurToolBlur> >" {
-					NodeName = "Смусинг1";
+					NodeName = "РЎРјСѓСЃРёРЅРі1";
 					treeSDTB = {
 						0;
 					};
 				},
 				"class CSDTBExt<class CExtWRB<class CSurToolBlur> >" {
-					NodeName = "Смусинг сильный";
+					NodeName = "РЎРјСѓСЃРёРЅРі СЃРёР»СЊРЅС‹Р№";
 					treeSDTB = {
 						0;
 					};
@@ -57,13 +57,13 @@ Tree777 = {
 			treeSDTB = {
 				2;
 				"class CSDTBExt<class CExtWRB<class CSurToolWater> >" {
-					NodeName = "Налить";
+					NodeName = "РќР°Р»РёС‚СЊ";
 					treeSDTB = {
 						0;
 					};
 				},
 				"class CSDTBExt<class CExtWRB<class CSurToolWater> >" {
-					NodeName = "Осушить";
+					NodeName = "РћСЃСѓС€РёС‚СЊ";
 					treeSDTB = {
 						0;
 					};
@@ -71,7 +71,7 @@ Tree777 = {
 			};
 		},
 		"class CSDTBExt<class CExtWRB<class CSurToolEmpty> >" {
-			NodeName = "Рельеф объектами";
+			NodeName = "Р РµР»СЊРµС„ РѕР±СЉРµРєС‚Р°РјРё";
 			treeSDTB = {
 				1;
 				"class CSDTBExt<class CExtWRB<class CSurTool3DM> >" {
@@ -83,7 +83,7 @@ Tree777 = {
 			};
 		},
 		"class CSDTBExt<class CExtWRB<class CSurToolSoundFolder> >" {
-			NodeName = "Звуки";
+			NodeName = "Р—РІСѓРєРё";
 		}
 	};
 };

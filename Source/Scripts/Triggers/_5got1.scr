@@ -27,7 +27,7 @@ TriggerChain = {
 			outcomingLinks = {
 				1;
 				{
-					triggerName = "омегу";
+					triggerName = "РѕРјРµРіСѓ";
 					color = STRATEGY_RED;
 					type = THICK;
 					active_ = false;
@@ -66,7 +66,7 @@ TriggerChain = {
 			};
 		},
 		{
-			name = "омегу";
+			name = "РѕРјРµРіСѓ";
 			condition = "struct ConditionSwitcher" {
 				state_ = true;
 				internalColor_ = 0;
@@ -95,7 +95,7 @@ TriggerChain = {
 			outcomingLinks = {
 				1;
 				{
-					triggerName = "заморозить омегу";
+					triggerName = "Р·Р°РјРѕСЂРѕР·РёС‚СЊ РѕРјРµРіСѓ";
 					color = STRATEGY_RED;
 					type = THIN;
 					active_ = false;
@@ -134,7 +134,7 @@ TriggerChain = {
 			};
 		},
 		{
-			name = "заморозить омегу";
+			name = "Р·Р°РјРѕСЂРѕР·РёС‚СЊ РѕРјРµРіСѓ";
 			condition = "struct ConditionSwitcher" {
 				state_ = false;
 				internalColor_ = 0;

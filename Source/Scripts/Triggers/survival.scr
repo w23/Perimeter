@@ -16,7 +16,7 @@ TriggerChain = {
 			outcomingLinks = {
 				2;
 				{
-					triggerName = "старт";
+					triggerName = "СЃС‚Р°СЂС‚";
 					color = STRATEGY_RED;
 					type = THIN;
 					active_ = false;
@@ -34,7 +34,7 @@ TriggerChain = {
 					};
 				},
 				{
-					triggerName = "3 сек";
+					triggerName = "3 СЃРµРє";
 					color = STRATEGY_RED;
 					type = THIN;
 					active_ = false;
@@ -129,7 +129,7 @@ TriggerChain = {
 			};
 		},
 		{
-			name = "поражение";
+			name = "РїРѕСЂР°Р¶РµРЅРёРµ";
 			condition = "struct ConditionSwitcher" {
 				state_ = false;
 				internalColor_ = 0;
@@ -159,7 +159,7 @@ TriggerChain = {
 			};
 		},
 		{
-			name = "старт";
+			name = "СЃС‚Р°СЂС‚";
 			condition = "struct ConditionSwitcher" {
 				state_ = false;
 				internalColor_ = 0;
@@ -193,7 +193,7 @@ TriggerChain = {
 			};
 		},
 		{
-			name = "3 сек";
+			name = "3 СЃРµРє";
 			condition = "struct ConditionSwitcher" {
 				state_ = false;
 				internalColor_ = 0;
@@ -225,7 +225,7 @@ TriggerChain = {
 			outcomingLinks = {
 				1;
 				{
-					triggerName = "поражение";
+					triggerName = "РїРѕСЂР°Р¶РµРЅРёРµ";
 					color = STRATEGY_RED;
 					type = THIN;
 					active_ = false;
